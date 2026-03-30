@@ -17,22 +17,6 @@ npm install
 npm start
 ```
 
-## How to push to GitHub
-
-1. Go to https://github.com/new and create a new repo called `shopping-cart`
-2. Copy your repo URL (looks like `https://github.com/YOUR_USERNAME/shopping-cart.git`)
-3. Run these commands in the project folder:
-
-```bash
-git remote add origin https://github.com/YOUR_USERNAME/shopping-cart.git
-git branch -M main
-git push -u origin main
-```
-
-That's it!
-
-## What I learned
-
 - useState hook to manage cart state
 - Array methods like .map(), .filter(), .find()
 - Passing functions as props
